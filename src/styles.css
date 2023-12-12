@@ -13,6 +13,15 @@ body {
   padding: 10rem;
 }
 
+header {
+  font-size: 25px;
+  margin: 10rem 0 0 0;
+}
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
 .col-6 {
   width: 50%;
   box-sizing: border-box; /* This ensures padding and border are included in the total width */
@@ -21,7 +30,7 @@ body {
 /* Add media queries for responsiveness if needed */
 @media (max-width: 768px) {
   .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .col-6 {
     width: 100%; /* Make columns stack on top of each other for smaller screens */
