@@ -3,6 +3,10 @@
   flex-direction: row;
 }
 
+.text-column {
+padding: 10rem;
+}
+
 .col-6 {
   width: 50%;
   box-sizing: border-box; /* This ensures padding and border are included in the total width */
