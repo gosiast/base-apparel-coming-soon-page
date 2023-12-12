@@ -1,8 +1,10 @@
 :root {
   --primary-color: hsl(0, 100%, 98%);
+  --secondary-color: hsl(0, 84%, 80%);
 }
 body {
   background-color: var(--primary-color);
+  font-family: Josefin Sans;
 }
 .row {
   display: flex;
@@ -14,13 +16,19 @@ body {
 }
 
 header {
-  font-size: 25px;
+  font-size: 50px;
   margin: 10rem 0 0 0;
+  font-weight: 500;
 }
 h1,
 h2 {
   padding: 0;
   margin: 0;
+  font-weight: lighter;
+}
+
+h1 {
+  color: var(--secondary-color);
 }
 .col-6 {
   width: 50%;
