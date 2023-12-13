@@ -1,6 +1,6 @@
 :root {
   --primary-color: hsl(0, 100%, 98%);
-  --secondary-color: hsl(0, 84%, 80%);
+  --secondary-color: hsla(0, 56%, 69%, 0.423);
 }
 
 body {
@@ -42,6 +42,9 @@ h1 {
   color: var(--secondary-color);
 }
 
+p {
+  color: var(--secondary-color);
+}
 .col-6 {
   width: 50%;
   box-sizing: border-box; /* This ensures padding and border are included in the total width */
