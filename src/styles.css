@@ -22,12 +22,12 @@ main {
 }
 
 .text-column {
-  padding: 10rem;
+  padding: 8rem;
 }
 
 header {
   font-size: 50px;
-  margin: 10rem 0 0 0;
+  margin: 5rem 0 0 0;
   font-weight: 500;
 }
 
@@ -47,6 +47,10 @@ h1 {
   box-sizing: border-box; /* This ensures padding and border are included in the total width */
 }
 
+form {
+  padding: 10px;
+}
+
 footer {
   background-color: #cd6f6f;
   color: white;
@@ -59,7 +63,7 @@ footer {
 
 footer a {
   color: var(--primary-color);
-  
+
 }
 
 /* Add media queries for responsiveness if needed */
