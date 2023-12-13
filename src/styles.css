@@ -2,10 +2,20 @@
   --primary-color: hsl(0, 100%, 98%);
   --secondary-color: hsl(0, 84%, 80%);
 }
+
 body {
   background-color: var(--primary-color);
   font-family: Josefin Sans;
+  display: flex;
+  flex-direction: column; /* Ensure flex container stacks its children vertically */
+  margin: 0;
+  min-height: 100vh; /* Set minimum height to the viewport height */
 }
+
+main {
+  flex: 1; /* Make the main content area grow to fill the available space */
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -20,6 +30,7 @@ header {
   margin: 10rem 0 0 0;
   font-weight: 500;
 }
+
 h1,
 h2 {
   padding: 0;
@@ -30,9 +41,25 @@ h2 {
 h1 {
   color: var(--secondary-color);
 }
+
 .col-6 {
   width: 50%;
   box-sizing: border-box; /* This ensures padding and border are included in the total width */
+}
+
+footer {
+  background-color: #cd6f6f;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: -12px;
+  width: 100%;
+  margin: 0;
+}
+
+footer a {
+  color: var(--primary-color);
+  
 }
 
 /* Add media queries for responsiveness if needed */
