@@ -42,6 +42,10 @@ h1 {
   color: var(--secondary-color);
 }
 
+h2 {
+  font-weight: 400;
+}
+
 p {
   color: var(--secondary-color);
 }
