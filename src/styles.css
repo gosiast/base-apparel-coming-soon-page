@@ -54,9 +54,14 @@ form {
   padding: 10px;
 }
 
+.email-input {
+  padding: 20px 100px;
+  border-radius: 40px;
+
+}
+
 footer {
-  background-color: #cd6f6f;
-  color: white;
+  background-color: #d88989;
   text-align: center;
   position: fixed;
   bottom: -12px;
@@ -66,7 +71,6 @@ footer {
 
 footer a {
   color: var(--primary-color);
-
 }
 
 /* Add media queries for responsiveness if needed */
