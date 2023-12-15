@@ -45,6 +45,10 @@ h1 {
 p {
   color: var(--secondary-color);
 }
+.intro-paragraph {
+  padding-right: 80px;
+  line-height: 1.5;
+}
 .col-6 {
   width: 50%;
   box-sizing: border-box; /* This ensures padding and border are included in the total width */
@@ -55,8 +59,9 @@ form {
 }
 
 .email-input {
-  padding: 20px 100px;
+  padding: 15px 100px 15px 15px;
   border-radius: 40px;
+  color: var(--secondary-color);
 
 }
 
