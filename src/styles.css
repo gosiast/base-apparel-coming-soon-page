@@ -1,94 +1,94 @@
 :root {
-  --primary-color: hsl(0, 100%, 98%);
-  --secondary-color: hsla(0, 56%, 69%, 0.423);
+	--primary-color: hsl(0, 100%, 98%);
+	--secondary-color: hsla(0, 56%, 69%, 0.423);
 }
 
 body {
-  background-color: var(--primary-color);
-  font-family: Josefin Sans;
-  display: flex;
-  flex-direction: column; /* Ensure flex container stacks its children vertically */
-  margin: 0;
-  min-height: 100vh; /* Set minimum height to the viewport height */
+	background-color: var(--primary-color);
+	font-family: Josefin Sans;
+	display: flex;
+	flex-direction: column; /* Ensure flex container stacks its children vertically */
+	margin: 0;
+	min-height: 100vh; /* Set minimum height to the viewport height */
 }
 
 main {
-  flex: 1; /* Make the main content area grow to fill the available space */
+	flex: 1; /* Make the main content area grow to fill the available space */
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .text-column {
-  padding: 8rem;
+	padding: 8rem;
 }
 
 header {
-  font-size: 50px;
-  margin: 5rem 0 0 0;
-  font-weight: 500;
+	font-size: 50px;
+	margin: 5rem 0 0 0;
+	font-weight: 500;
 }
 
 h1,
 h2 {
-  padding: 0;
-  margin: 0;
-  font-weight: lighter;
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
 }
 
 h1 {
-  color: var(--secondary-color);
+	color: var(--secondary-color);
 }
 
 h2 {
-  font-weight: 400;
+	font-weight: 400;
+	letter-spacing: 1rem;
 }
 
 p {
-  color: var(--secondary-color);
+	color: var(--secondary-color);
 }
 .intro-paragraph {
-  padding-right: 80px;
-  line-height: 1.5;
+	padding-right: 80px;
+	line-height: 1.5;
 }
 .col-6 {
-  width: 50%;
-  box-sizing: border-box; /* This ensures padding and border are included in the total width */
+	width: 50%;
+	box-sizing: border-box; /* This ensures padding and border are included in the total width */
 }
 
 form {
-  padding: 10px;
+	padding: 10px;
 }
 
 .email-input {
-  padding: 15px 100px 15px 15px;
-  border-radius: 40px;
-  color: var(--secondary-color);
-  border-color: var(--secondary-color);
-
+	padding: 15px 100px 15px 15px;
+	border-radius: 40px;
+	color: var(--secondary-color);
+	border-color: var(--secondary-color);
 }
 
 footer {
-  background-color: #d88989;
-  text-align: center;
-  position: fixed;
-  bottom: -12px;
-  width: 100%;
-  margin: 0;
+	background-color: #d88989;
+	text-align: center;
+	position: fixed;
+	bottom: -12px;
+	width: 100%;
+	margin: 0;
 }
 
 footer a {
-  color: var(--primary-color);
+	color: var(--primary-color);
 }
 
 /* Add media queries for responsiveness if needed */
 @media (max-width: 768px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-6 {
-    width: 100%; /* Make columns stack on top of each other for smaller screens */
-  }
+	.row {
+		flex-direction: column-reverse;
+	}
+	.col-6 {
+		width: 100%; /* Make columns stack on top of each other for smaller screens */
+	}
 }
