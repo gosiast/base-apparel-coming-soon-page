@@ -12,17 +12,13 @@ body {
 	min-height: 100vh; /* Set minimum height to the viewport height */
 }
 
-main {
-	flex: 1; /* Make the main content area grow to fill the available space */
-}
-
 .row {
 	display: flex;
 	flex-direction: row;
 }
 
 .text-column {
-	padding: 8rem;
+	padding: 5rem 7rem 12rem 10rem;
 }
 
 header {
